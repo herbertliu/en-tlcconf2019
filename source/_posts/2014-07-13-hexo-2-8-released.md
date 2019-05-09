@@ -8,8 +8,6 @@ Before Hexo 2.8, all source files have to be processed each time you use Hexo. I
 
 Generating was also changed in Hexo 2.8. You can check the elapsed time of each file in console now. However, I found multi-process generating didn't affect generating speed a lot. Thus, `multi_thread` and `max_open_file` setting are deprecated in Hexo 2.8.
 
-{% asset_img generate-console.png %}
-
 ## Draft Publish
 
 You don't have to enter full file name to publish a post anymore. Draft publish system is rewritten in Hexo 2.8. `new_post_name` setting will be applied until drafts are published. Besides, you can choose which layout to apply when publishing.

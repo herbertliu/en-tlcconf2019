@@ -19,29 +19,22 @@ More info: [Breaking Changes in Hexo 3.0], [changelog]
 
 1. Modify `package.json`.
 
-    {% code %}
     {
       "hexo": {
         "version": ""
       }
     }
-    {% endcode %}
     
 2. Install [hexo-cli]. If any error occurred, try to remove hexo first.
 
-    {% code %}
     $ npm install hexo-cli -g
-    {% endcode %}
     
 3. Install Hexo.
 
-    {% code %}
     $ npm install hexo --save
-    {% endcode %}
     
 4. Install plugins. You don't have to install all the following plugins. It depends on your need.
 
-    {% code %}
     $ npm install hexo-server --save
     $ npm install hexo-generator-index --save
     $ npm install hexo-generator-archive --save
@@ -51,7 +44,6 @@ More info: [Breaking Changes in Hexo 3.0], [changelog]
     $ npm install hexo-deployer-heroku --save
     $ npm install hexo-deployer-rsync --save
     $ npm install hexo-deployer-openshift --save
-    {% endcode %}
     
 5. Update plugins. Especially generators and filters. Since the API has breaking changes in Hexo 3.
 
