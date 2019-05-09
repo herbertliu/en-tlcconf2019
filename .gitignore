@@ -13,7 +13,7 @@ bin-release/
 *.ipa
 *.apk
 /node_modules
-/public
+# /public
 package-lock.json
 .DS_Store
 db.json
