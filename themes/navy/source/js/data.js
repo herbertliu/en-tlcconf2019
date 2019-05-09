@@ -165,7 +165,7 @@
 
         var items = data.subjectInfo.items;
 
-        var headItems = ['全部'];
+        var headItems = ['All'];
 
         for (var i = 0; i < items.length; i ++) {
             headItems.push(items[i].title);
