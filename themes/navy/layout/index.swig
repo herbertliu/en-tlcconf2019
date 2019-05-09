@@ -1,6 +1,7 @@
 <header id="banner">
   <div class="wrapper">
     <div class="inner">
+      <div id="banner-title">Tencent Live Conference</div>
       <div id="banner-bio">17 August, Shenzhen China</div>
       <div id="banner-buttons">
         <a href="https://www.bagevent.com/event/2596495#website_moduleId_258989" class="buy-ticket" target="_blank">Tickets</a>
