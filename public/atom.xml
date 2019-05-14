@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Tencent Live Conference</title>
   
-  <subtitle>A fast, simple &amp; powerful blog framework powered by Node.js.</subtitle>
+  <subtitle>Tencent Live Conference (TLC) is an influential technology conference for developers.</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://feflowjs.org/"/>
