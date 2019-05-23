@@ -21,14 +21,6 @@
     </div>
   </div>
 </div>
-<div id="content-wrap">
-  <div class="wrapper">
-    <div class="inner">
-      {{ page.content }}
-    </div>
-  </div>
-</div>
-
 <div id="gray-content-wrap">
   <div class="wrapper">
     <div class="inner">
@@ -48,6 +40,13 @@
         </ul>
         <div class="view-all"><a href="/speakers/">MORE</a></div>
       </div>
+    </div>
+  </div>
+</div>
+<div id="content-wrap">
+  <div class="wrapper">
+    <div class="inner">
+      {{ page.content }}
     </div>
   </div>
 </div>
