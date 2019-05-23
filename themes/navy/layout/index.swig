@@ -9,16 +9,6 @@
     </div>
   </div>
 </header>
-
-<div id="gray-content-wrap">
-  <div class="wrapper">
-    <div class="inner">
-      <div id="subject-wrap">
-
-      </div>
-    </div>
-  </div>
-</div>
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
@@ -34,12 +24,16 @@
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
-      <div id="intro-user-wrap">
-        <div class="intro-user-title"></div>
-        <ul id="speaker-items">
+      {{ page.content }}
+    </div>
+  </div>
+</div>
 
-        </ul>
-        <div class="view-all"><a href="/speakers/">MORE</a></div>
+<div id="gray-content-wrap">
+  <div class="wrapper">
+    <div class="inner">
+      <div id="subject-wrap">
+
       </div>
     </div>
   </div>
@@ -47,7 +41,13 @@
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
-      {{ page.content }}
+      <div id="intro-user-wrap">
+        <div class="intro-user-title"></div>
+        <ul id="speaker-items">
+
+        </ul>
+        <div class="view-all"><a href="/speakers/">MORE</a></div>
+      </div>
     </div>
   </div>
 </div>
