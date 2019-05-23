@@ -21,15 +21,6 @@
     </div>
   </div>
 </div>
-<div id="gray-content-wrap">
-  <div class="wrapper">
-    <div class="inner">
-      <div id="subject-wrap">
-
-      </div>
-    </div>
-  </div>
-</div>
 <div id="content-wrap">
   <div class="wrapper">
     <div class="inner">
@@ -47,6 +38,15 @@
   <div class="wrapper">
     <div class="inner">
       {{ page.content }}
+    </div>
+  </div>
+</div>
+<div id="gray-content-wrap">
+  <div class="wrapper">
+    <div class="inner">
+      <div id="subject-wrap">
+
+      </div>
     </div>
   </div>
 </div>
