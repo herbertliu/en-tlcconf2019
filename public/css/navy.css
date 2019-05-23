@@ -1788,6 +1788,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  object-fit: cover;
 }
 @media screen and (min-width: 769px) {
   .detail-wrap .base-info .logo-url img {
@@ -1989,6 +1990,7 @@ body {
   width: 120px;
   height: 120px;
   border-radius: 50%;
+  object-fit: cover;
 }
 @media screen and (min-width: 769px) {
   .publisher-wrap .base-info .logo-url img {

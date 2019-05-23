@@ -5,8 +5,8 @@ function isWeiXin() {
 function shareWX() {
     function e() {
         return {
-            title: "前沿科技！探索直播无限可能，深圳腾讯2018TLC直播大会再度来袭",
-            desc: "由腾讯Now直播IVWEB团队发起的专注于视频、直播、图像等领域的技术分享大会，大咖云集，干货满满等你来～",
+            title: "Tencent Live Conference (TLC) 2019 - 'Focus on the front end, embrace the flow of information'",
+            desc: "Tencent Live Conference (TLC)  is Tencent's influential technology conference for developers. The theme of this years is 'Focus on the front end, embrace the flow of information'",
             link: i,
             imgUrl: "https://qpic.url.cn/feeds_pic/Q3auHgzwzM7vqSndf7TQW6b9gDXXIwib4sa7BVXeRBsjlKSm7y6JvRQ/"
         }
@@ -73,7 +73,7 @@ function shareWX() {
     parseInt(1e6 * Math.random(), 10);
     var i = window.location.href.replace(/#.*$/, "");
     $.ajax({
-        url: "https://ivweb.io/wechat/share",
+        url: "https://ivweb.io/api/v1/wechat/share",
         type: "GET",
         dataType: "jsonp",
         jsonp: "callback",
